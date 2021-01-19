@@ -17,6 +17,17 @@ const Subhead = styled.p`
   font-size: 18px;
   font-weight: 500;
 `
+const Button = styled.a`
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0px 0px 0px 3px #473228,
+  -6px 6px #ef5f17,
+  -6px 6px 0px 3px #473228;
+`
 const Jumbotron = () => {
   return(
     <Section className="home-section-1">
@@ -27,7 +38,7 @@ const Jumbotron = () => {
               <Header>React for Ruby Developers</Header>
               <Subhead>Supercharge your Ruby on Rails app with React.js</Subhead>
               <div className="cta-wrapper">
-                <a className="btn fancy-btn">Get Started</a>
+                <Button className="btn fancy-btn">Get Started</Button>
               </div>
             </div>
           </div>
