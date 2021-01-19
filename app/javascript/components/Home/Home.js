@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 
 
 class Home extends Component {
+  super()
+
   constructor(){
     this.state = {
       course_modules: [
