@@ -2,9 +2,9 @@ import React, { Component } from 'react'
 
 
 class Home extends Component {
-  super()
-
   constructor(){
+    super()
+
     this.state = {
       course_modules: [
         { id: 1, title: '1.Setting up a new Ruby on Rails app with React', description: 'lorem ipsum', active: false },
