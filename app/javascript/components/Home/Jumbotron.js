@@ -26,6 +26,9 @@ const Jumbotron = () => {
             <div className="pt-4 mt-4">
               <Header>React for Ruby Developers</Header>
               <Subhead>Supercharge your Ruby on Rails app with React.js</Subhead>
+              <div className="cta-wrapper">
+                <a className="btn fancy-btn">Get Started</a>
+              </div>
             </div>
           </div>
           <div className="col col-sm-12 col-md-7">
