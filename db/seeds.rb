@@ -5,3 +5,14 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+course = Course.create(title: 'Hello World', description: 'Create a React App with Ruby on Rails')
+
+section = Section.create(title: 'Chapter 1', course: course)
+
+episodes = Episode.create([
+  { title: '1.Setting up a new Ruby on Rails app with React', description: 'lorem ipsum', url: 'https://www.youtube.com/embed/5F_JUvPq410', section: section },
+  { title: '2.Adding React to an existing rails app', description: 'lorem ipsum', url: 'https://www.youtube.com/embed/5F_JUvPq410', section: section },
+  { title: '3.Building a Hello World app', description: 'lorem ipsum', url: 'https://www.youtube.com/embed/5F_JUvPq410', section: section },
+  { title: '4.Adding React Router Dom to your app', description: 'lorem ipsum', url: 'https://www.youtube.com/embed/5F_JUvPq410', section: section },
+])
